@@ -22,4 +22,4 @@ jobs:
         run: npm install
 
       - name: Deploy to Surge
-        run: surge ./directorio-del-build ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
+        run: surge ./carlos-p1.surge.sh ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
